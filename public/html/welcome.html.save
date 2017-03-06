@@ -1,0 +1,23 @@
+<!--
+File created by Ben Posey on 10/9/2014
+File created using Notepad
+File updated on 10/9/2014 by Ben Posey
+Purpose of file: Example HTML code
+-->
+<html>
+	<head>
+		<!-- Enter document title -->
+		<title> <font color="#FFFFFF"> Ben Posey </font> </title>
+	</head>
+	<body>
+		<body bgcolor="#FF0000">
+		<!-- Enter centered page title -->
+		<h1 align=center> Welcome to my home page </h1>
+		<!-- Write introductory paragraph (centered) -->
+		<p align=center>  I am a freshman engineering 
+student at 
+the University of Pittsburgh. This page is still under construction and 
+more information will be provided soon. </p>
+	<h2 align=center> <font color="
+	</body>
+</html>
