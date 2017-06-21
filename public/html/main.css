@@ -1,11 +1,11 @@
 body {
 	font-family: 'Raleway', sans-serif;
-	/*background-image: url('images/Pittsburgh_Skyline_Day_BW.jpg');*/
-	background-image: url('images/dark_skyline_sb.jpg');
-	/*background-color: #b5bdc9;*/
-	background-position: center top;
-	background-size: cover;
+	background-color: #b5bdc9;
 	margin: 0;
+}
+
+embed {
+  overflow: hidden;
 }
 
 h1 {
@@ -55,4 +55,13 @@ nav a {
 
 .construction {
 	margin: auto;
+}
+
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url('images/load_hex.gif') no-repeat center center rgba(0,0,0,0.25);
+    background-size: 6em auto;
 }
