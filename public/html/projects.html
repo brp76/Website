@@ -1,0 +1,81 @@
+<!--
+File created by Ben Posey on 6/22/2017
+File created using Sublime Text
+File updated on 6/21/2017 by Ben Posey
+-->
+<html>
+	<head>
+		<!-- Title of site -->
+		<title> Ben Posey's Webpage </title>
+		<meta charset="utf-8"/>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+		        <li><a href="http://www.pitt.edu/~brp76/index.html"><b>Home</b></a></li>
+		        <li><a href="http://www.pitt.edu/~brp76/freshman/freshman.html">Freshman Site</a></li>
+		        <li><a href="#">Projects</a></li>
+		        <li><a href="http://www.pitt.edu/~brp76/resume.html">Resume</a></li>
+		        <li><a href="https://github.com/brp76">GitHub</a></li>
+		      </ul>
+		      <div class="contact-btn"><a href="mailto:brp76@pitt.edu">Contact</a>
+		      </div>
+		</nav>
+		<!-- <frameset cols="50%, *" border="5" bordercolor="000099">
+			<frame src="project_list.html"> -->
+		
+		<button class="accordion">Risk</button>
+		<div class="panel">
+			<p>Main Focus: `Display Driver`</p>
+			<p>The `Display Driver` is responsible for controlling the flow of data to and from the classes which provide the display drawings.  This will interact heavily with the `Driver` to maintain proper flow of information and, thus, the game.  
+			</p>
+		</div>
+
+		<button class="accordion">Composing Digital Media</button>
+		<div class="panel">
+			<p>
+			<ul class="projects">
+				<li><a href="http://aesopht.ml/introduction.html">Introduction Page</a></li>
+		        <li><a href="http://www.pitt.edu/~brp76/fable1.html">Fable 1</i></a></li>
+		        <li><a href="http://www.pitt.edu/~brp76/fable2.html">Fable 2</i></a></li>
+			</ul>
+			</p>
+		</div>
+
+		<button class="accordion">SteelHacks 2017</button>
+		<div class="panel">
+			<p>Randomly displays a group of three LEDs on the NeoPixel Ring. The user must move the analog stick connected to the Arduino to control a pixel of their own on the ring. If the user is able to hit the group of LEDs with their own pixel within the limited timeframe, they earn a point for that level. There are multiple "attacks" per level and five levels that become increasingly faster as the game progresses.</p>
+			<ul class="projects">
+				<li><a href="https://devpost.com/software/speedcircle">Devpost Page</a></li>
+		        <li><a href="https://youtu.be/8cWCWvRg9SE">YouTube Video</i></a></li>
+			</ul>
+		</div>
+
+		<button class="accordion">Freshman Engineering Conference 2015</button>
+		<div class="panel">
+			<p>Lorem ipsum...</p>
+		</div>
+
+		
+
+	</body>
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function() {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight){
+					panel.style.maxHeight = null;
+				} else {
+					panel.style.maxHeight = panel.scrollHeight + "px";
+				} 
+			}
+		}
+	</script>
+</html>
+
